@@ -14,6 +14,7 @@
 		ms.href=hf;document.getElementsByTagName("head")[0].appendChild(ms);
 	}
 	loadCSS("libs/animate/animate.css"); //Загрузка библиотеки CSS: Animate CSS
+	loadCSS("css/fonts.css"); 
 	loadCSS("css/style.css");               //Стили страници (perfectPixel при макетном разрищении)
 	loadCSS("css/responsive.css");          //Стили адаптации
 </script>

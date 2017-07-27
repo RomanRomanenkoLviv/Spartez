@@ -2,5 +2,6 @@
 Application for the Webmaster role at Spartez
 
 Steps:
-- Unzip my clear platform for new application
-- Compleated header and start content
+- Unpack my clean platform for a new application
+- Completed title and start of content
+- Completed content layout, transition to connecting scripts

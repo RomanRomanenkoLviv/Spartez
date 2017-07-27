@@ -23,8 +23,7 @@ require_once('config.php');
 </head>
 <body id="body">
 <!-- Rsponsive JS -->
-<script type="text/javascript">function responsiveJS(){var width=window.innerWidth,etalonFontSize=0,is_chrome=navigator.userAgent.indexOf('Chrome')>-1,is_safari=navigator.userAgent.indexOf("Safari")>-1;if((is_chrome)&&(is_safari)){is_safari=false;}if(width>=<?=DEFAULT_MEDIUM_SCREEN?>){if(is_safari==true&&width<=<?=DEFAULT_BIG_SCREEN?>){var l=((<?=DEFAULT_BIG_SCREEN?>-width)/140|0)*0.02;etalonFontSize=(10/<?=DEFAULT_BIG_SCREEN?>)*(width*(0.98-l));}else{etalonFontSize=(10/(<?=DEFAULT_BIG_SCREEN?>-17))*width;}document.getElementById("body").style.fontSize=etalonFontSize+'px';}else{if(width>=<?=DEFAULT_SMALL_SCREEN?>){etalonFontSize=(10/<?=DEFAULT_MEDIUM_SCREEN?>)*width;}else{etalonFontSize=(10/<?=DEFAULT_SMALL_SCREEN?>)*width;}document.getElementById("body").style.fontSize=etalonFontSize+'px';}}responsiveJS();</script>
-
+<script type="text/javascript">function responsiveJS(){var width=document.documentElement.clientWidth,etalonFontSize=0,is_chrome=navigator.userAgent.indexOf('Chrome')>-1,is_safari=navigator.userAgent.indexOf("Safari")>-1;if((is_chrome)&&(is_safari)){is_safari=false;}if(width>=<?=DEFAULT_MEDIUM_SCREEN?>){if(is_safari==true&&width<=<?=DEFAULT_BIG_SCREEN?>){var l=((<?=DEFAULT_BIG_SCREEN?>-width)/140|0)*0.02;etalonFontSize=(10/<?=DEFAULT_BIG_SCREEN?>)*(width*(0.98-l));}else{etalonFontSize=(10/<?=DEFAULT_BIG_SCREEN?>)*width;}document.getElementById("body").style.fontSize=etalonFontSize+'px';}else{if(width>=<?=DEFAULT_SMALL_SCREEN?>){etalonFontSize=(10/<?=DEFAULT_MEDIUM_SCREEN?>)*width;}else{etalonFontSize=(10/<?=DEFAULT_SMALL_SCREEN?>)*width;}document.getElementById("body").style.fontSize=etalonFontSize+'px';}}responsiveJS();</script>
 <!-- compiled include fonts here -->
 	<style></style>
 <!-- end fonts -->
