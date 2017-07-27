@@ -12,6 +12,20 @@ $('a[href^="#"]').click(function(){
   return false;
 });
 
+$('#menu .item').click(function(){
+	var type = $(this).data('type');
+	if(type == 'popular'){
+		$('#menu .item').removeClass('active');
+		$(this).addClass('active');
+		$('.content .item').hide(300);
+		setTimeout(function(){$('.content .item.image').show(300);}, 300);
+	}else{
+		$('#menu .item').removeClass('active');
+		$(this).addClass('active');
+		$('.content .item').hide(300);
+		setTimeout(function(){$('.content .item').show(300);}, 200);
+	}
+});
 // инициализация маски без 9ки
 // $("input[name=phone]").mask("+7(999)99-99-99"); // (раскоментировать если надо)
 

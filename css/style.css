@@ -1,5 +1,5 @@
 .nullbg{
-	display: block;
+	display: none;
 	width: 100%;
 	position: absolute;
 	z-index: 0;
@@ -11,6 +11,7 @@
 	position: relative;
 	padding: 2.3em 6.1em 0 4.1em;
 	background: #ecf0f1;
+	min-height: 100vh;
 }
 .header{
 	width: 100%;
@@ -20,9 +21,11 @@
 	align-items: stretch;
 }
 .header .item{
+	display: inline-block;
 	font-size: 2.4em;
     padding: 0.4em 1.9em 0.55em 1.3em;
     text-align: center;
+    cursor: pointer;
 }
 .header .item:not(:last-child){
 	margin-right:0.5em;

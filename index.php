@@ -6,23 +6,25 @@
 	<div class="item"><button>Дебаг</button></div>
 </div> -->
 <div class="body">
-	<div class="header">
-		<span class="item active">Newest</span>
-		<span class="item">Most popular<span>
-	</div>
-	<div class="content">
+	<nav class="header" id="menu">
+		<ul>
+			<li class="item active" data-type="newest">Newest</li>
+			<li class="item" data-type="popular">Most popular<li>
+		</ul>
+	</nav>
+	<section class="content">
 		<div class="item">
 			<div class="text">
-				<div class="title">Est eu laboris deserunt id magna qui</div>
-				<div class="date">2 March 2016</div>
-				<div class="description">Cillum officia et aiqua sit ex. Est fugiat voluptate tempor quis adipisicing fugiat proident laboris ea ullamco qiu cillum ut. Eu qui elit esse tempor aliquip esse. Eu fugiat irure excepteur sunt. Anim velit</div>
+				<h3 class="title">Est eu laboris deserunt id magna qui</h3>
+				<p class="date">2 March 2016</p>
+				<p class="description">Cillum officia et aiqua sit ex. Est fugiat voluptate tempor quis adipisicing fugiat proident laboris ea ullamco qiu cillum ut. Eu qui elit esse tempor aliquip esse. Eu fugiat irure excepteur sunt. Anim velit</p>
 			</div>
 			<div class="footer">
 				<div class="votes">
 					<span class="icon-star-full"></span>
-					<span class="value">105 votes</span>
+					<p class="value">105 votes</p>
 				</div>
-				<div class="category">Technology</div>
+				<p class="category">Technology</p>
 			</div>
 		</div>
 		<div class="item image">
@@ -30,28 +32,28 @@
 				<img src="http://lorempixel.com/800/800" />
 			</div>
 			<div class="text">
-				<div class="title">Eu consectetur fugiat sit veniam</div>
+				<h3 class="title">Eu consectetur fugiat sit veniam</h3>
 				<div class="footer">
-					<div class="date">2 March 2016</div>
+					<p class="date">2 March 2016</p>
 					<div class="votes">
 						<span class="icon-star-full"></span>
-						<span class="value">105 votes</span>
+						<p class="value">105 votes</p>
 					</div>
 				</div>
 			</div>
 		</div>
 		<div class="item">
 			<div class="text">
-				<div class="title">Est eu laboris deserunt id magna qui</div>
-				<div class="date">2 March 2016</div>
-				<div class="description">Cillum officia et aiqua sit ex. Est fugiat voluptate tempor quis adipisicing fugiat proident laboris ea ullamco qiu cillum ut. Eu qui elit esse tempor aliquip esse. Eu fugiat irure excepteur sunt. Anim velit</div>
+				<h3 class="title">Est eu laboris deserunt id magna qui</h3>
+				<p class="date">2 March 2016</p>
+				<p class="description">Cillum officia et aiqua sit ex. Est fugiat voluptate tempor quis adipisicing fugiat proident laboris ea ullamco qiu cillum ut. Eu qui elit esse tempor aliquip esse. Eu fugiat irure excepteur sunt. Anim velit</p>
 			</div>
 			<div class="footer">
 				<div class="votes">
 					<span class="icon-star-full"></span>
-					<span class="value">105 votes</span>
+					<p class="value">105 votes</p>
 				</div>
-				<div class="category">Technology</div>
+				<p class="category">Technology</p>
 			</div>
 		</div>
 		<div class="item image">
@@ -59,45 +61,45 @@
 				<img src="http://placekitten.com/800/800" />
 			</div>
 			<div class="text">
-				<div class="title">Eu consectetur fugiat sit veniam</div>
+				<h3 class="title">Eu consectetur fugiat sit veniam</h3>
 				<div class="footer">
-					<div class="date">2 March 2016</div>
+					<p class="date">2 March 2016</p>
 					<div class="votes">
 						<span class="icon-star-full"></span>
-						<span class="value">105 votes</span>
+						<p class="value">105 votes</p>
 					</div>
 				</div>
 			</div>
 		</div>
 		<div class="item">
 			<div class="text">
-				<div class="title">Est eu laboris deserunt id magna qui</div>
-				<div class="date">2 March 2016</div>
-				<div class="description">Cillum officia et aiqua sit ex. Est fugiat voluptate tempor quis adipisicing fugiat proident laboris ea ullamco qiu cillum ut. Eu qui elit esse tempor aliquip esse. Eu fugiat irure excepteur sunt. Anim velit</div>
+				<h3 class="title">Est eu laboris deserunt id magna qui</h3>
+				<p class="date">2 March 2016</p>
+				<p class="description">Cillum officia et aiqua sit ex. Est fugiat voluptate tempor quis adipisicing fugiat proident laboris ea ullamco qiu cillum ut. Eu qui elit esse tempor aliquip esse. Eu fugiat irure excepteur sunt. Anim velit</p>
 			</div>
 			<div class="footer">
 				<div class="votes">
 					<span class="icon-star-full"></span>
-					<span class="value">105 votes</span>
+					<p class="value">105 votes</p>
 				</div>
-				<div class="category">Technology</div>
+				<p class="category">Technology</p>
 			</div>
 		</div>
 		<div class="item">
 			<div class="text">
-				<div class="title">Est eu laboris deserunt id magna qui</div>
-				<div class="date">2 March 2016</div>
-				<div class="description">Cillum officia et aiqua sit ex. Est fugiat voluptate tempor quis adipisicing fugiat proident laboris ea ullamco qiu cillum ut. Eu qui elit esse tempor aliquip esse. Eu fugiat irure excepteur sunt. Anim velit</div>
+				<h3 class="title">Est eu laboris deserunt id magna qui</h3>
+				<p class="date">2 March 2016</p>
+				<p class="description">Cillum officia et aiqua sit ex. Est fugiat voluptate tempor quis adipisicing fugiat proident laboris ea ullamco qiu cillum ut. Eu qui elit esse tempor aliquip esse. Eu fugiat irure excepteur sunt. Anim velit</p>
 			</div>
 			<div class="footer">
 				<div class="votes">
 					<span class="icon-star-full"></span>
-					<span class="value">105 votes</span>
+					<p class="value">105 votes</p>
 				</div>
-				<div class="category">Technology</div>
+				<p class="category">Technology</p>
 			</div>
 		</div>
-	</div>
+	</section>
 </div>
 <!-- Конец кода страници -->
 <?php include('counters.php'); ?>
